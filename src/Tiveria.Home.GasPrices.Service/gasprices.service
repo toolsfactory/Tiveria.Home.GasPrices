@@ -1,0 +1,15 @@
+﻿[Unit]
+Description=Gasprices from Tankerkoenig for OpenHab
+After=network.target
+
+[Service]
+ExecStart=/home/openhabian/gasprices/Tiveria.Home.GasPrices.Service
+Restart=always
+User=openhabian
+# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin:/usr/share/dotnet
+WorkingDirectory=/home/openhabian/gasprices
+
+[Install]
+WantedBy=multi-user.target

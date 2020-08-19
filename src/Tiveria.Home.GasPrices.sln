@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiveria.Home.GasPrices.Service", "Tiveria.Home.GasPrices.Service\Tiveria.Home.GasPrices.Service.csproj", "{5B074625-B5C6-4CF3-9727-8B5D3EF19073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiveria.Home.GasPrices.TankerKoenig", "Tiveria.Home.GasPrices.TankerKoenig\Tiveria.Home.GasPrices.TankerKoenig.csproj", "{45DF9EF4-E6AE-45D6-91F7-94209DC6827B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiveria.Home.GasPrices.Interfaces", "Tiveria.Home.GasPrices.Interfaces\Tiveria.Home.GasPrices.Interfaces.csproj", "{D68AED94-7E4E-46DE-907A-D62D5DD897D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiveria.Home.GasPrices.CLI", "Tiveria.Home.GasPrices.CLI\Tiveria.Home.GasPrices.CLI.csproj", "{268F56E3-7172-4F08-B91F-EC0B8A2C63B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B074625-B5C6-4CF3-9727-8B5D3EF19073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B074625-B5C6-4CF3-9727-8B5D3EF19073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B074625-B5C6-4CF3-9727-8B5D3EF19073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B074625-B5C6-4CF3-9727-8B5D3EF19073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DF9EF4-E6AE-45D6-91F7-94209DC6827B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DF9EF4-E6AE-45D6-91F7-94209DC6827B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DF9EF4-E6AE-45D6-91F7-94209DC6827B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DF9EF4-E6AE-45D6-91F7-94209DC6827B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68AED94-7E4E-46DE-907A-D62D5DD897D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68AED94-7E4E-46DE-907A-D62D5DD897D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68AED94-7E4E-46DE-907A-D62D5DD897D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68AED94-7E4E-46DE-907A-D62D5DD897D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268F56E3-7172-4F08-B91F-EC0B8A2C63B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268F56E3-7172-4F08-B91F-EC0B8A2C63B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268F56E3-7172-4F08-B91F-EC0B8A2C63B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268F56E3-7172-4F08-B91F-EC0B8A2C63B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933088F9-DDEE-4297-9936-A225F895A775}
+	EndGlobalSection
+EndGlobal

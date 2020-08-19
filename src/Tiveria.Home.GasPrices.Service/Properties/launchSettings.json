@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Tiveria.Home.GasPrices.Service": {
+      "commandName": "Project",
+      "commandLineArgs": "demo=test",
+      "environmentVariables": {
+        "environment": "Development"
+      }
+    }
+  }
+}
